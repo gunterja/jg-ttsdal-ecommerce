@@ -23,7 +23,7 @@ Product.create!(
 
 Product.create!(
   title:"Spiral Notebook",
-  description:" Keepp all your notes neatly organized. ",
+  description:" Keep all your notes neatly organized. ",
   image_url: "http://ecx.images-amazon.com/images/I/41N1dVObzTL._SY300_.jpg",
   price: 0.99
 )
