@@ -1,0 +1,17 @@
+<p>
+Dear <%= @order.name %>,
+</p>
+
+<p>
+Thank you for your order from MyEcommerce!
+</p>
+
+<p>
+You ordered the followng items:
+</p>
+
+<%= render @order.line_items -%>
+
+<p>
+We'll send you a separate email when it ships. 
+</p>
